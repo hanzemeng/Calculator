@@ -1,0 +1,253 @@
+body
+{
+    margin: 3% 5%;
+    font-size: 16pt;
+    background-color: #bad4ef;
+    position: initial; 
+    transition: 1s;
+}
+h1
+{
+    text-align: center;
+}
+output
+{
+	font-size: 16pt;
+}
+input, textarea
+{
+    width: 300px;
+    height: 24px;
+    font-size: 12pt;
+    vertical-align: top;
+}
+select
+{ 
+    width: 60px;
+    height:25px;
+    font-size: 12pt;
+}
+textarea
+{
+    color:#c7c1c1;
+}
+button
+{
+    width: 150px;
+    height: 50px;
+    font-size: 16pt;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #D6D4D4 #B8B8B8 #B8B8B8 #D6D4D4;
+    background-color: #F2F2F2;        
+}
+button:active
+{
+    border-color: #B8B8B8 #D6D4D4 #D6D4D4 #B8B8B8;
+    background-color: #A9A9A9;
+}
+
+.head
+{
+    position: -webkit-sticky;    
+    position: sticky;
+    top: 0;    
+}
+.significantDigit
+{
+    background-color: #FFE4C4;
+
+}
+#significantDigit
+{
+    border-width: 0px;
+    background-color: #FFE4C4; 
+}
+input#significantDigit
+{
+    width: 45px;
+    height:30px;
+    font-size: 16pt;
+}
+
+#sideBar 
+{
+    height: 100%;
+    width: 25%;
+    max-width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #f1fbd4;
+    overflow-x: hidden;
+    transition: 0.75s;
+    display: flex;
+    opacity: 0.8;
+}
+#rightArrow
+{
+    transition: 0.75s;
+    position: absolute;
+    top: 50%; 
+
+}
+#sideBarOption
+{
+    position: absolute;
+    left:30px;
+    font-size: 22pt;
+    
+    white-space: nowrap;
+}
+#sideBarOption p
+{
+    cursor: pointer;
+}
+
+.convertor
+{
+    display: flex;
+}
+.box
+{
+    width: 80px;
+    font-size: 48pt;
+    text-align: center;
+}
+input.box
+{
+    width: 50%;
+    height: 60px;
+    font-size: 32pt;
+    border: none;
+    background-color: #b283dc;
+}
+input#num51::placeholder,input#num61::placeholder,input#num71::placeholder,input#num82::placeholder,input#num83::placeholder,input#num84::placeholder
+{
+    color:#c7c1c1;
+}
+#unit50, #unit51, #unit60, #unit61, #unit70, #unit71
+{
+    width: 25%;
+    height: 90px;
+    font-size: 36pt;
+    padding-left: 5.5%;
+    max-width: 120px;
+    min-width: 68px;
+    text-align: center;
+    border:none;
+    outline:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: red;
+}
+#loc50,#loc51,#loc60,#loc61,#loc70,#loc71
+{
+    width: 50%;
+    text-align: center;
+}
+#num50,#unit50,#num51,#unit51,#num60,#unit60,#num61,#unit61,#num70,#unit70,#num71,#unit71
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.reset
+{
+    text-align: center;
+}
+
+#left, #right
+{
+    width:50%;
+    text-align: center;
+}
+#num80
+{
+    width:90%;
+    font-size: 22pt;  
+    margin: 0; 
+}
+#num81
+{
+    font-size: 22pt;
+    width:280px;
+    height: 60px;
+}
+#num82,#num83,#num84
+{
+    height:37px;
+    font-size: 22pt;
+    text-align: center;
+}
+#meanFinder
+{
+    display: flex;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    background-color: white;
+    border-radius: 3%;
+    padding: 1%;
+}
+.e
+{
+	font-size: 18pt;
+   	vertical-align:middle;
+}
+#l0, #l1, #l2, #l3
+{
+    display: inline-block; 
+    vertical-align: middle;
+}
+#l0, #l3
+{
+    width: 1em;
+}
+#l1
+{
+    width: 3em;
+}
+
+#l2
+{
+    width: 4em;
+}
+#n0, #n1, #n2, #n3
+{
+    text-align: center;
+    border-bottom: 1pt solid black; 
+}
+#d0, #d1, #d2, #d3
+{
+    text-align: center;
+}
+#r0, #r1, #r2, #r3
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+#answerd,#answers,#answerc,#answerP
+{
+    cursor: not-allowed;
+}
+
+#sharePicture
+{
+	visibility: hidden;
+}
+input#sub
+{
+     width: 70px;
+}
+input#url
+{
+   display: none;
+}
